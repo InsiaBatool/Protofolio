@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const  Header = () =>{
-   const [brandName, setBrandName] = useState("harsh kumar tiwari")
+   const [brandName, setBrandName] = useState("Insia Batool")
    const [menuLinks,setMenuLinks]=useState([
     {
         title: "Home",

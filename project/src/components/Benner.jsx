@@ -1,4 +1,4 @@
-import bannerImage from "../assets/bi1.png";
+import bannerImage from "../assets/pic.png.jpg";
 import bannerBackground from "../assets/banner_wallpaper.svg";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
@@ -39,7 +39,7 @@ const Bennar=()=>{
                 {/* text */}
                 <div className="w-2/3 space-y-2 my-10">
                 <h3 className="text-3xl font-semibold">Hi,I am</h3>
-                <h1 className="text-5xl font-bold">Durgesh Kumar Tiwari</h1>
+                <h1 className="text-5xl font-bold">Insia Batool</h1>
                 <h2 className="text-3xl ">I am <span className="font-bold underline" ref={el}></span></h2>
                 <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos enim eius nemo dicta rem est nihil a quod similique voluptates? Lorem ipsum dolor sit amet consectetur  </p>
 
@@ -70,7 +70,7 @@ const Bennar=()=>{
                {/* second dabba */}
             <div className=" w-full flex justify-center">
                 {/* img */}
-                <img className="rounded-full my-2 shadow-lg w-fit" src={bannerImage}/>
+                <img className="rounded-full my-2 shadow-lg w-80 h-80 " src={bannerImage}/>
             </div>
 
         </div>

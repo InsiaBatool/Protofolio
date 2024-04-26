@@ -1,5 +1,5 @@
 import { useState } from "react";
-import bennerImage from "../assets/bi2.png";
+import bennerImage from "../assets/pic2.png.jpg";
 
 const About =()=>{
 
@@ -22,8 +22,8 @@ return(
 
         <div className="flex items-center">
             {/* image container */}
-            <div className="w-full flex justify-center">
-                <img className="w-fit"
+            <div className="w-fit flex justify-center">
+                <img className=" rounded-full my-2 shadow-lg w-80 h-80 "
                  src={data.image} alt="" />
             </div>
 
